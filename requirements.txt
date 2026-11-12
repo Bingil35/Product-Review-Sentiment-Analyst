@@ -1,0 +1,11 @@
+# Python 3.12 recommended
+# Install: python -m pip install -r requirements.txt
+numpy>=1.26,<3
+pandas>=2.2,<3
+scipy>=1.12,<2
+scikit-learn>=1.5,<2
+matplotlib>=3.8,<4
+seaborn>=0.13,<1
+jupyterlab>=4.2,<5
+ipykernel>=6.29,<8
+notebook>=7.2,<8

@@ -1,0 +1,37 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Dataset
+data/raw/*
+!data/raw/.gitkeep
+
+# Manual review files
+results/label_audit*.csv
+
+# Trained models
+models/*.joblib
+models/*.pkl
+
+# OS
+.DS_Store
+Thumbs.db

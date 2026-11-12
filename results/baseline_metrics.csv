@@ -1,0 +1,2 @@
+﻿Model,Train samples,Validation samples,Test samples,Accuracy,Macro Precision,Macro Recall,Macro F1
+TF-IDF + MultinomialNB,6715,1440,1440,0.9333,0.9318,0.9259,0.9287
