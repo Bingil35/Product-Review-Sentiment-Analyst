@@ -1,0 +1,4 @@
+model,best_cv_f1_macro,best_params
+LogisticRegression,0.9406610783051903,"{'classifier__C': np.float64(8.53864875617199), 'classifier__class_weight': None, 'tfidf__min_df': 5, 'tfidf__ngram_range': (1, 2)}"
+MultinomialNB,0.9297165301379842,"{'classifier__alpha': np.float64(0.014936568554617643), 'tfidf__min_df': 2, 'tfidf__ngram_range': (1, 2)}"
+RandomForest,0.9056374509241316,"{'tfidf__ngram_range': (1, 2), 'tfidf__min_df': 3, 'classifier__n_estimators': 200, 'classifier__min_samples_leaf': 1, 'classifier__max_features': 'sqrt', 'classifier__max_depth': None}"

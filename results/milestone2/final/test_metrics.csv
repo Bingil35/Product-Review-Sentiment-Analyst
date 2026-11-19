@@ -1,0 +1,2 @@
+model,accuracy,precision_macro,recall_macro,f1_macro,roc_auc,test_samples
+LogisticRegression,0.9541666666666667,0.9542285062277747,0.9480600686792067,0.9509642055210672,0.9876951463277126,1440

@@ -1,0 +1,31 @@
+{
+  "selected_model": "LogisticRegression",
+  "selection_criterion": "validation_macro_f1",
+  "selected_validation_f1_macro": 0.944505847696299,
+  "hyperparameters": {
+    "classifier__C": 8.53864875617199,
+    "classifier__class_weight": null,
+    "tfidf__min_df": 5,
+    "tfidf__ngram_range": [
+      1,
+      2
+    ]
+  },
+  "train_validation_samples": 8155,
+  "held_out_test_samples": 1440,
+  "test_metrics": {
+    "model": "LogisticRegression",
+    "accuracy": 0.9541666666666667,
+    "precision_macro": 0.9542285062277747,
+    "recall_macro": 0.9480600686792067,
+    "f1_macro": 0.9509642055210672,
+    "roc_auc": 0.9876951463277126,
+    "test_samples": 1440
+  },
+  "labels": [
+    "negative",
+    "positive"
+  ],
+  "preprocessing_import": "src.text_preprocessing.preprocess_text",
+  "note": "Test evaluated once after model selection; do not retune on Test."
+}

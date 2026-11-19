@@ -1,0 +1,2 @@
+streamlit>=1.35,<2
+# Cần cài cùng môi trường đã chạy notebook 04 (scikit-learn, pandas, joblib, numpy).

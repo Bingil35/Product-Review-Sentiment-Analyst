@@ -1,0 +1,17 @@
+{
+  "selection_metric": "validation_macro_f1",
+  "selected_model": "LogisticRegression",
+  "validation_metrics": {
+    "model": "LogisticRegression",
+    "accuracy": 0.9479166666666666,
+    "precision_macro": 0.9456742142615748,
+    "recall_macro": 0.9433909076930962,
+    "f1_macro": 0.944505847696299,
+    "roc_auc": 0.986241607298447
+  },
+  "train_samples": 6715,
+  "validation_samples": 1440,
+  "test_samples_reserved": 1440,
+  "random_state": 42,
+  "cv_folds": 5
+}
